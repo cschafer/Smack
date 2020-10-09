@@ -2,6 +2,7 @@ package com.example.smack
 
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -25,6 +26,18 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
+    }
+
+    fun loginBtnNavClicked(view: View){
+
+    }
+
+    fun addChannelClicked(view: View){
+
+    }
+
+    fun sendMessageBtnClicked(view: View){
+        
     }
 
 
